@@ -1,0 +1,65 @@
+---------------------
+---2024-09-18 11:02:25
+---Installed driver, now waiting 10s
+Read 6 bytes. Received message:   OK  
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+---------------------
+---2024-09-18 11:21:48
+---Installed driver, now waiting 10s
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 21 bytes. Received message:   +CME ERROR: 55295  
+---PDP not activated, maybe already done
+Read 39 bytes. Received message:   +CGPADDR: 1,"10.42.217.56",""    OK  
+---IP address sent
+---------------------
+---2024-09-18 11:22:25
+---Installed driver, now waiting 10s
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 21 bytes. Received message:   +CME ERROR: 55295  
+---PDP not activated, maybe already done
+Read 39 bytes. Received message:   +CGPADDR: 1,"10.42.217.56",""    OK  
+---IP address sent
+---------------------
+---2024-09-18 11:26:02
+---Installed driver, now waiting 10s
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 21 bytes. Received message:   +CME ERROR: 55295  
+---PDP not activated, maybe already done
+Read 39 bytes. Received message:   +CGPADDR: 1,"10.42.217.56",""    OK  
+---IP address sent
+---------------------
+---2024-09-18 11:26:58
+---Installed driver, now waiting 10s
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 21 bytes. Received message:   +CME ERROR: 55295  
+---PDP not activated, maybe already done
+Read 39 bytes. Received message:   +CGPADDR: 1,"10.42.217.56",""    OK  
+---IP address sent
+-----------------------------------------------------------
+---2024-09-18 11:34:29
+---Installed driver, now waiting 10s
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 21 bytes. Received message:   +CME ERROR: 55295  
+---PDP not activated, maybe already done
+Read 39 bytes. Received message:   +CGPADDR: 1,"10.42.217.56",""    OK  
+---IP address sent
+---IP address: 10.42.217.56
+---interface IP set, removing temp file
+---2024-09-18 11:34:41, time delta=12
+-----------------------------------------------------------
