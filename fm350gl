@@ -4,9 +4,9 @@ START=95
 STOP=01
 start_service() {
     procd_open_instance
-    procd_set_param command /bin/sh "/root/fm350gl.sh"
+    procd_set_param command /bin/sh "/root/autostart/fm350gl.sh"
 
-    procd_set_param respawn 120 2 0
+    procd_set_param respawn 30 2 0
     
     procd_close_instance
 }
