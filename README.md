@@ -116,6 +116,10 @@ make
 ```
 ./fm350gl.sh
 ```
+* if you want the modem to automatically start with the next powerup you need to add this line to your /etc/rc.local:
+```
+/root/autostart/fm350gl.sh
+```
 
 ## Help
 
