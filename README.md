@@ -132,6 +132,11 @@ cat at_commander_log.log
 ```
 logread
 ```
+* the script can print something like this to the syslog:
+```
+Oct  9 13:12:57 OpenMPTCProuter user.notice root: Script fm350gl.sh stared
+Oct  9 13:13:19 OpenMPTCProuter user.notice root: Script fm350gl.sh ended
+```
 
 ## Authors
 
