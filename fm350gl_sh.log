@@ -63,3 +63,951 @@ Read 39 bytes. Received message:   +CGPADDR: 1,"10.42.217.56",""    OK
 ---interface IP set, removing temp file
 ---2024-09-18 11:34:41, time delta=12
 -----------------------------------------------------------
+-----------------------------------------------------------
+---2024-09-18 15:00:51
+---Installed driver, now waiting 10s
+Read 9 bytes. Received message: at   OK  
+---AT command accepted
+Read 35 bytes. Received message: at+cgdcont=1,"IP","internet"   OK  
+---PDP context set
+Read 13 bytes. Received message: at+cgact=1,1 
+---PDP not activated, maybe already done
+Read 82 bytes. Received message: at+cgpaddr=1   +CGEV: ME PDN ACT 1    OK    +CGPADDR: 1,"10.36.216.239",""    OK  
+---IP address sent
+---IP address: 10.36.216.239
+---interface IP set, removing temp file
+---2024-09-18 15:01:02, time delta=11
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-09-18 13:51:46
+---Installed driver, now waiting 10s
+Read 9 bytes. Received message: at   OK  
+---AT command accepted
+Read 35 bytes. Received message: at+cgdcont=1,"IP","internet"   OK  
+---PDP context set
+Read 13 bytes. Received message: at+cgact=1,1 
+---PDP not activated, maybe already done
+Read 81 bytes. Received message: at+cgpaddr=1   +CGEV: ME PDN ACT 1    OK    +CGPADDR: 1,"10.39.134.95",""    OK  
+---IP address sent
+---IP address: 10.39.134.95
+---interface IP set, removing temp file
+---2024-09-18 13:51:57, time delta=11
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-09-24 08:59:30
+---Installed driver, now waiting 10s
+Error 2 from open: No such file or directory
+Error 2 from open: No such file or directory
+Error 2 from open: No such file or directory
+---PDP not activated, maybe already done
+Error 2 from open: No such file or directory
+---IP address: 
+---interface IP set, removing temp file
+---2024-09-24 08:59:43, time delta=13
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-09-24 09:03:48
+---Installed driver, now waiting 10s
+Read 9 bytes. Received message: at   OK  
+---AT command accepted
+Read 35 bytes. Received message: at+cgdcont=1,"IP","internet"   OK  
+---PDP context set
+Read 22 bytes. Received message: at+cgact=1,1   ERROR  
+---PDP not activated, maybe already done
+Read 22 bytes. Received message: at+cgpaddr=1   ERROR  
+---IP address: 
+---interface IP set, removing temp file
+---2024-09-24 09:04:01, time delta=13
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-09-24 09:09:34
+---Installed driver, now waiting 10s
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 21 bytes. Received message:   +CME ERROR: 62207  
+---PDP not activated, maybe already done
+Read 17 bytes. Received message:   +CME ERROR: 0  
+---IP address: 
+---interface IP set, removing temp file
+---2024-09-24 09:09:47, time delta=13
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-09-24 09:11:01
+---Installed driver, now waiting 10s
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 21 bytes. Received message:   +CME ERROR: 62207  
+---PDP not activated, maybe already done
+Read 17 bytes. Received message:   +CME ERROR: 0  
+---IP address: 
+---interface IP set, removing temp file
+---2024-09-24 09:11:14, time delta=13
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-09-24 09:13:43
+---Installed driver, now waiting 10s
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 21 bytes. Received message:   +CME ERROR: 62207  
+---PDP not activated, maybe already done
+Read 29 bytes. Received message:   +CME ERROR: phone failure  
+---IP address: 
+---interface IP set, removing temp file
+---2024-09-24 09:13:56, time delta=13
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-09-25 02:09:05
+---Installed driver, now waiting 10s
+Read 12 bytes. Received message: at   ERROR  
+Read 35 bytes. Received message: at+cgdcont=1,"IP","internet"   OK  
+---PDP context set
+Read 13 bytes. Received message: at+cgact=1,1 
+---PDP not activated, maybe already done
+Read 81 bytes. Received message: at+cgpaddr=1   +CGEV: ME PDN ACT 1    OK    +CGPADDR: 1,"10.36.81.215",""    OK  
+---IP address sent
+---IP address: 10.36.81.215
+---interface IP set, removing temp file
+---2024-09-25 02:09:18, time delta=13
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-09-25 02:21:41
+---Installed driver, now waiting 10s
+Read 9 bytes. Received message: at   OK  
+---AT command accepted
+Read 35 bytes. Received message: at+cgdcont=1,"IP","internet"   OK  
+---PDP context set
+Read 22 bytes. Received message: at+cgact=1,1   ERROR  
+---PDP not activated, maybe already done
+Read 52 bytes. Received message: at+cgpaddr=1   +CGPADDR: 1,"10.36.81.215",""    OK  
+---IP address sent
+---IP address: 10.36.81.215
+---interface IP set, removing temp file
+---2024-09-25 02:21:53, time delta=12
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-09-25 02:32:53
+---Installed driver, now waiting 10s
+Read 9 bytes. Received message: at   OK  
+---AT command accepted
+Read 35 bytes. Received message: at+cgdcont=1,"IP","internet"   OK  
+---PDP context set
+Read 22 bytes. Received message: at+cgact=1,1   ERROR  
+---PDP not activated, maybe already done
+Read 52 bytes. Received message: at+cgpaddr=1   +CGPADDR: 1,"10.36.81.215",""    OK  
+---IP address sent
+---IP address: 10.36.81.215
+---interface IP set, removing temp file
+---2024-09-25 02:33:05, time delta=12
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-09-25 04:10:15
+---Installed driver, now waiting 10s
+Read 9 bytes. Received message: at   OK  
+---AT command accepted
+Read 35 bytes. Received message: at+cgdcont=1,"IP","internet"   OK  
+---PDP context set
+Read 13 bytes. Received message: at+cgact=1,1 
+---PDP not activated, maybe already done
+Read 82 bytes. Received message: at+cgpaddr=1   +CGEV: ME PDN ACT 1    OK    +CGPADDR: 1,"10.43.157.155",""    OK  
+---IP address sent
+---IP address: 10.43.157.155
+---interface IP set, removing temp file
+---2024-09-25 04:10:27, time delta=12
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-09-25 04:14:15
+---Installed driver, now waiting 10s
+Read 9 bytes. Received message: at   OK  
+---AT command accepted
+Read 35 bytes. Received message: at+cgdcont=1,"IP","internet"   OK  
+---PDP context set
+Read 22 bytes. Received message: at+cgact=1,1   ERROR  
+---PDP not activated, maybe already done
+Read 53 bytes. Received message: at+cgpaddr=1   +CGPADDR: 1,"10.43.157.155",""    OK  
+---IP address sent
+---IP address: 10.43.157.155
+---interface IP set, removing temp file
+---2024-09-25 04:14:28, time delta=13
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-09-25 08:03:12
+---Installed driver, now waiting 10s
+Read 9 bytes. Received message: at   OK  
+---AT command accepted
+Read 35 bytes. Received message: at+cgdcont=1,"IP","internet"   OK  
+---PDP context set
+Read 42 bytes. Received message: at+cgact=1,1   +CGEV: ME PDN ACT 1    OK  
+---PDP activated
+Read 52 bytes. Received message: at+cgpaddr=1   +CGPADDR: 1,"10.37.220.69",""    OK  
+---IP address sent
+---IP address: 10.37.220.69
+---interface IP set, removing temp file
+---2024-09-25 08:03:24, time delta=12
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-09-25 08:38:34
+---Installed driver, now waiting 10s
+Read 9 bytes. Received message: at   OK  
+---AT command accepted
+Read 35 bytes. Received message: at+cgdcont=1,"IP","internet"   OK  
+---PDP context set
+Read 13 bytes. Received message: at+cgact=1,1 
+---PDP not activated, maybe already done
+Read 82 bytes. Received message: at+cgpaddr=1   +CGEV: ME PDN ACT 1    OK    +CGPADDR: 1,"10.39.169.214",""    OK  
+---IP address sent
+---IP address: 10.39.169.214
+---interface IP set, removing temp file
+---2024-09-25 08:38:46, time delta=12
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-09-25 15:57:00
+---Installed driver, now waiting 10s
+Read 9 bytes. Received message: at   OK  
+---AT command accepted
+Read 35 bytes. Received message: at+cgdcont=1,"IP","internet"   OK  
+---PDP context set
+Read 22 bytes. Received message: at+cgact=1,1   ERROR  
+---PDP not activated, maybe already done
+Read 53 bytes. Received message: at+cgpaddr=1   +CGPADDR: 1,"10.39.169.214",""    OK  
+---IP address sent
+---IP address: 10.39.169.214
+---interface IP set, removing temp file
+---2024-09-25 15:57:12, time delta=12
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-09-26 11:00:38
+---Installed driver, now waiting 10s
+Read 104 bytes. Received message:   +EONSNWNAME: 1, 0, "Telekom.de", 0, "Telekom.de"    +EONSNWNAME: 1, 0, "Telekom.de", 0, "Telekom.de"  
+Read 59 bytes. Received message:   +CTZV: +8,1  at   OK  at+cgdcont=1,"IP","internet"   OK  
+---PDP context set
+Read 13 bytes. Received message: at+cgact=1,1 
+---PDP not activated, maybe already done
+Read 82 bytes. Received message: at+cgpaddr=1   +CGEV: ME PDN ACT 1    OK    +CGPADDR: 1,"10.37.106.112",""    OK  
+---IP address sent
+---IP address: 10.37.106.112
+---interface IP set, removing temp file
+---2024-09-26 11:00:50, time delta=12
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-09-26 11:02:06
+---Installed driver, now waiting 10s
+Read 9 bytes. Received message: at   OK  
+---AT command accepted
+Read 35 bytes. Received message: at+cgdcont=1,"IP","internet"   OK  
+---PDP context set
+Read 22 bytes. Received message: at+cgact=1,1   ERROR  
+---PDP not activated, maybe already done
+Read 53 bytes. Received message: at+cgpaddr=1   +CGPADDR: 1,"10.37.106.112",""    OK  
+---IP address sent
+---IP address: 10.37.106.112
+---interface IP set, removing temp file
+---2024-09-26 11:02:18, time delta=12
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-09-26 11:45:13
+---Installed driver, now waiting 10s
+Read 9 bytes. Received message: at   OK  
+---AT command accepted
+Read 35 bytes. Received message: at+cgdcont=1,"IP","internet"   OK  
+---PDP context set
+Read 22 bytes. Received message: at+cgact=1,1   ERROR  
+---PDP not activated, maybe already done
+Read 53 bytes. Received message: at+cgpaddr=1   +CGPADDR: 1,"10.37.106.112",""    OK  
+---IP address sent
+---IP address: 10.37.106.112
+---interface IP set, removing temp file
+---2024-09-26 11:45:25, time delta=12
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-09-26 04:59:39
+---Installed driver, now waiting 10s
+Read 9 bytes. Received message: at   OK  
+---AT command accepted
+Read 35 bytes. Received message: at+cgdcont=1,"IP","internet"   OK  
+---PDP context set
+Read 22 bytes. Received message: at+cgact=1,1   ERROR  
+---PDP not activated, maybe already done
+Read 53 bytes. Received message: at+cgpaddr=1   +CGPADDR: 1,"10.37.106.112",""    OK  
+---IP address sent
+---IP address: 10.37.106.112
+---interface IP set, removing temp file
+---2024-09-26 04:59:51, time delta=12
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-09-26 12:14:17
+---Installed driver, now waiting 10s
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 21 bytes. Received message:   +CME ERROR: 55295  
+---PDP not activated, maybe already done
+Read 40 bytes. Received message:   +CGPADDR: 1,"10.37.106.112",""    OK  
+---IP address sent
+---IP address: 10.37.106.112
+---interface IP set, removing temp file
+---2024-09-26 12:14:29, time delta=12
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-09-26 15:27:12
+---Installed driver, now waiting 10s
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 21 bytes. Received message:   +CME ERROR: 55295  
+---PDP not activated, maybe already done
+Read 40 bytes. Received message:   +CGPADDR: 1,"10.37.106.112",""    OK  
+---IP address sent
+---IP address: 10.37.106.112
+---interface IP set, removing temp file
+---2024-09-26 15:27:24, time delta=12
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-09-26 15:36:32
+---Installed driver, now waiting 10s
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 21 bytes. Received message:   +CME ERROR: 55295  
+---PDP not activated, maybe already done
+Read 40 bytes. Received message:   +CGPADDR: 1,"10.37.106.112",""    OK  
+---IP address sent
+---IP address: 10.37.106.112
+---Setting routes for 10.37.106.112
+---interface IP and routes set, removing temp file
+---2024-09-26 15:36:45, time delta=13
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-01 09:33:32
+---Installed driver, now waiting 10s
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 21 bytes. Received message:   +CME ERROR: 55295  
+---PDP not activated, maybe already done
+Read 40 bytes. Received message:   +CGPADDR: 1,"10.37.106.112",""    OK  
+---IP address sent
+---IP address: 10.37.106.112
+---Setting routes for 10.37.106.112
+---interface IP and routes set, removing temp file
+---2024-10-01 09:33:45, time delta=13
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-01 09:47:58
+---Installed driver, now waiting 10s
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 21 bytes. Received message:   +CME ERROR: 55295  
+---PDP not activated, maybe already done
+Read 40 bytes. Received message:   +CGPADDR: 1,"10.37.106.112",""    OK  
+---IP address sent
+---IP address: 10.37.106.112
+---Setting routes for 10.37.106.112
+---interface IP and routes set, removing temp file
+---2024-10-01 09:48:11, time delta=13
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-01 09:49:49
+---Installed driver, now waiting 10s
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 21 bytes. Received message:   +CME ERROR: 55295  
+---PDP not activated, maybe already done
+Read 40 bytes. Received message:   +CGPADDR: 1,"10.37.106.112",""    OK  
+---IP address sent
+---IP address: 10.37.106.112
+---Setting routes for 10.37.106.112
+---interface IP and routes set, removing temp file
+---2024-10-01 09:50:04, time delta=14
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-01 10:08:11
+---Installed driver, now waiting 10s
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 21 bytes. Received message:   +CME ERROR: 55295  
+---PDP not activated, maybe already done
+Read 40 bytes. Received message:   +CGPADDR: 1,"10.37.106.112",""    OK  
+---IP address sent
+---IP address: 10.37.106.112
+---Setting routes for 10.37.106.112
+---interface IP and routes set, removing temp file
+---2024-10-01 10:08:24, time delta=13
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-01 10:25:47
+---Installed driver, now waiting 10s
+---PDP not activated, maybe already done
+---IP address: 
+---Setting routes for 
+---interface IP and routes set, removing temp file
+---2024-10-01 10:26:01, time delta=14
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-01 10:27:51
+---Installed driver, now waiting 10s
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 21 bytes. Received message:   +CME ERROR: 55295  
+---PDP not activated, maybe already done
+Read 40 bytes. Received message:   +CGPADDR: 1,"10.37.106.112",""    OK  
+---IP address sent
+---IP address: 10.37.106.112
+---Setting routes for 10.37.106.112
+---interface IP and routes set, removing temp file
+---2024-10-01 10:28:04, time delta=13
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-01 10:29:49
+---Installed driver, now waiting 10s
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 21 bytes. Received message:   +CME ERROR: 55295  
+---PDP not activated, maybe already done
+Read 40 bytes. Received message:   +CGPADDR: 1,"10.37.106.112",""    OK  
+---IP address sent
+---IP address: 10.37.106.112
+---Setting routes for 10.37.106.112
+---interface IP and routes set, removing temp file
+---2024-10-01 10:30:02, time delta=13
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-01 11:41:48
+---Installed driver, now waiting 10s
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 21 bytes. Received message:   +CME ERROR: 55295  
+---PDP not activated, maybe already done
+Read 40 bytes. Received message:   +CGPADDR: 1,"10.37.106.112",""    OK  
+---IP address sent
+---IP address: 10.37.106.112
+---Setting routes for 10.37.106.112
+---interface IP and routes set, removing temp file
+---2024-10-01 11:42:01, time delta=13
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-01 12:27:59
+---Installed driver, now waiting 10s
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 21 bytes. Received message:   +CME ERROR: 55295  
+---PDP not activated, maybe already done
+Read 40 bytes. Received message:   +CGPADDR: 1,"10.37.106.112",""    OK  
+---IP address sent
+---IP address: 10.37.106.112
+---Setting routes for 10.37.106.112
+---interface IP and routes set, removing temp file
+---2024-10-01 12:28:12, time delta=13
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-01 12:38:41
+---Installed driver, now waiting 10s
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 21 bytes. Received message:   +CME ERROR: 55295  
+---PDP not activated, maybe already done
+Read 40 bytes. Received message:   +CGPADDR: 1,"10.37.106.112",""    OK  
+---IP address sent
+---IP address: 10.37.106.112
+---Setting routes for 10.37.106.112
+---interface IP and routes set, removing temp file
+---2024-10-01 12:38:54, time delta=13
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-01 12:54:12
+---Installed driver, now waiting 10s
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 21 bytes. Received message:   +CME ERROR: 55295  
+---PDP not activated, maybe already done
+Read 40 bytes. Received message:   +CGPADDR: 1,"10.37.106.112",""    OK  
+---IP address sent
+---IP address: 10.37.106.112
+---Setting routes for 10.37.106.112
+---interface IP and routes set, removing temp file
+---2024-10-01 12:54:26, time delta=14
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-01 06:09:56
+---Installed driver, now waiting 10s
+---PDP not activated, maybe already done
+---IP address: 
+---Setting routes for 
+---interface IP and routes set, removing temp file
+---2024-10-01 06:10:10, time delta=14
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-01 06:11:55
+---Installed driver, now waiting 10s
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 21 bytes. Received message:   +CME ERROR: 55295  
+---PDP not activated, maybe already done
+Read 40 bytes. Received message:   +CGPADDR: 1,"10.37.106.112",""    OK  
+---IP address sent
+---IP address: 10.37.106.112
+---Setting routes for 10.37.106.112
+---interface IP and routes set, removing temp file
+---2024-10-01 06:12:09, time delta=14
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-01 06:12:31
+---Installed driver, now waiting 10s
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 21 bytes. Received message:   +CME ERROR: 55295  
+---PDP not activated, maybe already done
+Read 40 bytes. Received message:   +CGPADDR: 1,"10.37.106.112",""    OK  
+---IP address sent
+---IP address: 10.37.106.112
+---Setting routes for 10.37.106.112
+---interface IP and routes set, removing temp file
+---2024-10-01 06:12:44, time delta=13
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-01 06:18:35
+---Installed driver, now waiting 10s
+---PDP not activated, maybe already done
+---IP address: 
+---Setting routes for 
+---interface IP and routes set, removing temp file
+---2024-10-01 06:18:49, time delta=14
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-01 06:20:19
+---Installed driver, now waiting 10s
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 21 bytes. Received message:   +CME ERROR: 55295  
+---PDP not activated, maybe already done
+Read 40 bytes. Received message:   +CGPADDR: 1,"10.37.106.112",""    OK  
+---IP address sent
+---IP address: 10.37.106.112
+---Setting routes for 10.37.106.112
+---interface IP and routes set, removing temp file
+---2024-10-01 06:20:32, time delta=13
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-01 13:22:25
+---Installed driver, now waiting 10s
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 21 bytes. Received message:   +CME ERROR: 55295  
+---PDP not activated, maybe already done
+Read 40 bytes. Received message:   +CGPADDR: 1,"10.37.106.112",""    OK  
+---IP address sent
+---IP address: 10.37.106.112
+---Setting routes for 10.37.106.112
+---interface IP and routes set, removing temp file
+---2024-10-01 13:22:38, time delta=13
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-01 14:51:13
+---Installed driver, now waiting 10s
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 21 bytes. Received message:   +CME ERROR: 55295  
+---PDP not activated, maybe already done
+Read 40 bytes. Received message:   +CGPADDR: 1,"10.37.106.112",""    OK  
+---IP address sent
+---IP address: 10.37.106.112
+---Setting routes for 10.37.106.112
+---interface IP and routes set, removing temp file
+---2024-10-01 14:51:26, time delta=13
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-09 02:10:14
+---Installed driver, now waiting 10s
+---PDP not activated, maybe already done
+---IP address: 
+---Setting routes for 
+---interface IP and routes set, removing temp file
+---2024-10-09 02:10:28, time delta=14
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-09 02:15:21
+---Installed driver, now waiting 10s
+---PDP not activated, maybe already done
+---IP address: 
+---Setting routes for 
+---interface IP and routes set, removing temp file
+---2024-10-09 02:15:55, time delta=34
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-09 09:17:41
+---Installed driver, now waiting 10s
+---PDP not activated, maybe already done
+---IP address: 
+---Setting routes for 
+---interface IP and routes set, removing temp file
+---2024-10-09 09:17:55, time delta=14
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-09 09:17:53
+---Installed driver, now waiting 10s
+---PDP not activated, maybe already done
+---IP address: 
+---Setting routes for 
+---interface IP and routes set, removing temp file
+---2024-10-09 09:18:27, time delta=34
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-09 09:18:42
+---Installed driver, now waiting 10s
+Read 20 bytes. Received message: at   OK  ATE0   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 9 bytes. Received message:   ERROR  
+---PDP not activated, maybe already done
+Read 40 bytes. Received message:   +CGPADDR: 1,"10.39.229.170",""    OK  
+---IP address sent
+---IP address: 10.39.229.170
+---Setting routes for 10.39.229.170
+---interface IP and routes set, removing temp file
+---2024-10-09 09:18:56, time delta=14
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-09 09:18:59
+---Installed driver, now waiting 10s
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 21 bytes. Received message:   +CME ERROR: 55295  
+---PDP not activated, maybe already done
+Read 40 bytes. Received message:   +CGPADDR: 1,"10.39.229.170",""    OK  
+---IP address sent
+---IP address: 10.39.229.170
+---Setting routes for 10.39.229.170
+---interface IP and routes set, removing temp file
+---2024-10-09 09:19:12, time delta=13
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-09 10:38:16
+---Installed driver, now waiting 10s
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 21 bytes. Received message:   +CME ERROR: 55295  
+---PDP not activated, maybe already done
+Read 40 bytes. Received message:   +CGPADDR: 1,"10.39.229.170",""    OK  
+---IP address sent
+---IP address: 10.39.229.170
+---Setting routes for 10.39.229.170
+---interface IP and routes set, removing temp file
+---2024-10-09 10:38:29, time delta=13
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-09 14:25:42
+---Installed driver, now waiting 10s
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 21 bytes. Received message:   +CME ERROR: 55295  
+---PDP not activated, maybe already done
+Read 40 bytes. Received message:   +CGPADDR: 1,"10.39.229.170",""    OK  
+---IP address sent
+---IP address: 10.39.229.170
+---Setting routes for 10.39.229.170
+---interface IP and routes set, removing temp file
+---2024-10-09 14:25:55, time delta=13
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-09 14:50:47
+---Installed driver, now waiting 10s
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 21 bytes. Received message:   +CME ERROR: 55295  
+---PDP not activated, maybe already done
+Read 40 bytes. Received message:   +CGPADDR: 1,"10.39.229.170",""    OK  
+---IP address sent
+---IP address: 10.39.229.170
+---Setting routes for 10.39.229.170
+---interface IP and routes set, removing temp file
+---2024-10-09 14:51:00, time delta=13
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-09 14:52:17
+---Installed driver, now waiting 10s
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 21 bytes. Received message:   +CME ERROR: 55295  
+---PDP not activated, maybe already done
+Read 40 bytes. Received message:   +CGPADDR: 1,"10.39.229.170",""    OK  
+---IP address sent
+---IP address: 10.39.229.170
+---Setting routes for 10.39.229.170
+---interface IP and routes set, removing temp file
+---2024-10-09 14:52:30, time delta=13
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-09 14:55:43
+---Installed driver, now waiting 10s
+---PDP not activated, maybe already done
+---IP address: 
+---Setting routes for 
+---interface IP and routes set, removing temp file
+---2024-10-09 14:55:57, time delta=14
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-09 14:58:21
+---Installed driver, now waiting 10s
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 21 bytes. Received message:   +CME ERROR: 55295  
+---PDP not activated, maybe already done
+Read 40 bytes. Received message:   +CGPADDR: 1,"10.39.229.170",""    OK  
+---IP address sent
+---IP address: 10.39.229.170
+---Setting routes for 10.39.229.170
+---interface IP and routes set, removing temp file
+---2024-10-09 14:58:34, time delta=13
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-09 15:00:21
+---Installed driver, now waiting 20s
+---PDP not activated, maybe already done
+---IP address: 
+---Setting routes for 
+---interface IP and routes set, removing temp file
+---2024-10-09 15:00:49, time delta=28
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-09 15:03:18
+---Installed driver, now waiting 20s
+---PDP not activated, maybe already done
+---IP address: 
+---Setting routes for 
+---interface IP and routes set, removing temp file
+---2024-10-09 15:04:31, time delta=73
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-09 15:07:24
+---Installed driver, now waiting 20s
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 21 bytes. Received message:   +CME ERROR: 55295  
+---PDP not activated, maybe already done
+Read 40 bytes. Received message:   +CGPADDR: 1,"10.39.229.170",""    OK  
+---IP address sent
+---IP address: 10.39.229.170
+---Setting routes for 10.39.229.170
+---interface IP and routes set, removing temp file
+---2024-10-09 15:08:36, time delta=72
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-09 15:12:57
+---Installed driver, now waiting 10s
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 21 bytes. Received message:   +CME ERROR: 55295  
+---PDP not activated, maybe already done
+Read 40 bytes. Received message:   +CGPADDR: 1,"10.39.229.170",""    OK  
+---IP address sent
+---IP address: 10.39.229.170
+---Setting routes for 10.39.229.170
+---interface IP and routes set, removing temp file
+---2024-10-09 15:13:19, time delta=22
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-09 16:11:41
+---Installed driver, now waiting 10s
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 21 bytes. Received message:   +CME ERROR: 55295  
+---PDP not activated, maybe already done
+Read 40 bytes. Received message:   +CGPADDR: 1,"10.39.229.170",""    OK  
+---IP address sent
+---IP address: 10.39.229.170
+---Setting routes for 10.39.229.170
+---interface IP and routes set, removing temp file
+---2024-10-09 16:12:03, time delta=22
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-10 04:32:42
+---Installed driver, now waiting 10s
+---PDP not activated, maybe already done
+---IP address: 
+---Setting routes for 
+---interface IP and routes set, removing temp file
+---2024-10-10 04:33:25, time delta=43
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-10 04:34:24
+---Installed driver, now waiting 10s
+---PDP not activated, maybe already done
+Read 6 bytes. Received message:   OK  
+---IP address: 
+---Setting routes for 
+---interface IP and routes set, removing temp file
+---2024-10-10 04:35:03, time delta=39
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-10 11:35:38
+---Installed driver, now waiting 10s
+Read 9 bytes. Received message: at   OK  
+---AT command accepted
+Read 35 bytes. Received message: at+cgdcont=1,"IP","internet"   OK  
+---PDP context set
+Read 22 bytes. Received message: at+cgact=1,1   ERROR  
+---PDP not activated, maybe already done
+Read 53 bytes. Received message: at+cgpaddr=1   +CGPADDR: 1,"10.36.111.131",""    OK  
+---IP address sent
+---IP address: 10.36.111.131
+---Setting routes for 10.36.111.131
+---interface IP and routes set, removing temp file
+---2024-10-10 11:36:00, time delta=22
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-10 11:42:19
+---Installed driver, now waiting 10s
+Error 2 from open: No such file or directory
+Error 2 from open: No such file or directory
+Error 2 from open: No such file or directory
+---PDP not activated, maybe already done
+Error 2 from open: No such file or directory
+---IP address: 
+---Setting routes for 
+---interface IP and routes set, removing temp file
+---2024-10-10 11:42:42, time delta=23
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-10 11:44:11
+---Installed driver, now waiting 10s
+Error 2 from open: No such file or directory
+Error 2 from open: No such file or directory
+Error 2 from open: No such file or directory
+---PDP not activated, maybe already done
+Error 2 from open: No such file or directory
+---IP address: 
+---Setting routes for 
+---interface IP and routes set, removing temp file
+---2024-10-10 11:44:34, time delta=23
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-10 04:51:18
+---Installed driver, now waiting 10s
+---PDP not activated, maybe already done
+---IP address: 
+---Setting routes for 
+---interface IP and routes set, removing temp file
+---2024-10-10 04:52:02, time delta=44
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-10 11:55:07
+---Installed driver, now waiting 10s
+---PDP not activated, maybe already done
+---IP address: 
+---Setting routes for 
+---interface IP and routes set, removing temp file
+---2024-10-10 11:55:50, time delta=43
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-10 11:58:56
+---Installed driver, now waiting 10s
+---PDP not activated, maybe already done
+---IP address: 
+---Setting routes for 
+---interface IP and routes set, removing temp file
+---2024-10-10 11:59:39, time delta=43
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-10 12:00:12
+---Installed driver, now waiting 10s
+Read 9 bytes. Received message: at   OK  
+---AT command accepted
+Read 35 bytes. Received message: at+cgdcont=1,"IP","internet"   OK  
+---PDP context set
+Read 22 bytes. Received message: at+cgact=1,1   ERROR  
+---PDP not activated, maybe already done
+Read 53 bytes. Received message: at+cgpaddr=1   +CGPADDR: 1,"10.42.236.237",""    OK  
+---IP address sent
+---IP address: 10.42.236.237
+---Setting routes for 10.42.236.237
+---interface IP and routes set, removing temp file
+---2024-10-10 12:00:34, time delta=22
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-10 12:06:23
+---Installed driver, now waiting 10s
+Read 9 bytes. Received message: at   OK  
+---AT command accepted
+Read 35 bytes. Received message: at+cgdcont=1,"IP","internet"   OK  
+---PDP context set
+Read 22 bytes. Received message: at+cgact=1,1   ERROR  
+---PDP not activated, maybe already done
+Read 53 bytes. Received message: at+cgpaddr=1   +CGPADDR: 1,"10.42.236.237",""    OK  
+---IP address sent
+---IP address: 10.42.236.237
+---Setting routes for 10.42.236.237
+---interface IP and routes set, removing temp file
+---2024-10-10 12:06:45, time delta=22
+-----------------------------------------------------------
+-----------------------------------------------------------
+---2024-10-10 12:07:38
+---Installed driver, now waiting 10s
+Read 6 bytes. Received message:   OK  
+---AT command accepted
+Read 6 bytes. Received message:   OK  
+---PDP context set
+Read 21 bytes. Received message:   +CME ERROR: 55295  
+---PDP not activated, maybe already done
+Read 40 bytes. Received message:   +CGPADDR: 1,"10.42.236.237",""    OK  
+---IP address sent
+---IP address: 10.42.236.237
+---Setting routes for 10.42.236.237
+---interface IP and routes set, removing temp file
+---2024-10-10 12:08:00, time delta=22
+-----------------------------------------------------------
