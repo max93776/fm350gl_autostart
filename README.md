@@ -6,6 +6,12 @@ This project is used to set up the FM350GL modem in OpenMPTCProuter.
 
 Currently the support of the modem isn't that good, so you need to do some stuff on your own. Also it's not working very stable.
 
+
+
+The project also includes a small luci interface to check signal quality.
+![image](https://github.com/user-attachments/assets/c7d95134-c16c-4366-a94d-2b414fc7d23e)
+
+
 ## Getting Started
 
 ### Dependencies
@@ -98,21 +104,25 @@ usb-mode-custom.json:
 
 ### Installing
 
-* clone project
+* install the project under /root
 ```
 git clone https://github.com/max93776/fm350gl_autostart.git
 ```
 * change rules
 ```
-chmod +x file
+chmod +x <file>
 ```
 * build at_commander
 ```
 make
 ```
+* if you also want luci components in the right directory
+```
+make luci
+```
 ### Executing program
 
-* simply run 
+* simply run in autostart dir
 ```
 ./fm350gl.sh
 ```
