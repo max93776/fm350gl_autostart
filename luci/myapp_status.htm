@@ -1,0 +1,232 @@
+<%+header%>
+
+<h2>Modem Signalquality</h2>
+<div id="signal_status_1">loading...</div>
+<div id="signal_scale_1" style="width: 100%; height: 30px; background-color: lightgrey;">
+    <div id="signal_bar_1" style="width: 0%; height: 100%; background-color: red;"></div>
+</div>
+
+<div id="signal_status_2">loading...</div>
+<div id="signal_scale_2" style="width: 100%; height: 30px; background-color: lightgrey;">
+    <div id="signal_bar_2" style="width: 0%; height: 100%; background-color: red;"></div>
+</div>
+
+<div id="signal_status_3">loading...</div>
+<div id="signal_scale_3" style="width: 100%; height: 30px; background-color: lightgrey;">
+    <div id="signal_bar_3" style="width: 0%; height: 100%; background-color: red;"></div>
+</div>
+
+<div id="signal_status_4">loading...</div>
+<div id="signal_scale_4" style="width: 100%; height: 30px; background-color: lightgrey;">
+    <div id="signal_bar_4" style="width: 0%; height: 100%; background-color: red;"></div>
+</div>
+
+<div id="signal_status_5">loading...</div>
+<div id="signal_scale_5" style="width: 100%; height: 30px; background-color: lightgrey;">
+    <div id="signal_bar_5" style="width: 0%; height: 100%; background-color: red;"></div>
+</div>
+
+<div id="signal_status_6">loading...</div>
+<div id="signal_scale_6" style="width: 100%; height: 30px; background-color: lightgrey;">
+    <div id="signal_bar_6" style="width: 0%; height: 100%; background-color: red;"></div>
+</div>
+
+<div id="signal_status_7">loading...</div>
+<div id="signal_scale_7" style="width: 100%; height: 30px; background-color: lightgrey;">
+    <div id="signal_bar_7" style="width: 0%; height: 100%; background-color: red;"></div>
+</div>
+
+<div id="signal_status_8">loading...</div>
+<div id="signal_scale_8" style="width: 100%; height: 30px; background-color: lightgrey;">
+    <div id="signal_bar_8" style="width: 0%; height: 100%; background-color: red;"></div>
+</div>
+
+<div id="signal_status_9">loading...</div>
+<div id="signal_scale_9" style="width: 100%; height: 30px; background-color: lightgrey;">
+    <div id="signal_bar_9" style="width: 0%; height: 100%; background-color: red;"></div>
+</div>
+
+<script type="text/javascript">
+function loadSignalStatus() {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', '<%=luci.dispatcher.build_url("admin", "status", "myapp", "get_at_command")%>', true);
+
+    xhr.onload = function() {
+        if (xhr.status === 200) {
+            var data = JSON.parse(xhr.responseText);
+            var values = data.result; // Erwartet ein Array mit 9 Werten
+            for (var i = 0; i < values.length; i++) {
+                var value = values[i]; // Der jeweilige AT-Befehl-Wert für den i-ten Balken
+                var percent; // Prozentwert initialisieren
+                var signalBar = document.getElementById("signal_bar_" + (i + 1));
+
+                switch (i) {
+                    case 0:
+                        percent = ((value + 1) / 64) * 100;
+                        percent = Math.round(Math.max(0, Math.min(100, percent)));
+                        if (value !== 99 && value !== 255) {
+                          signalBar.style.width = percent + "%";
+                          document.getElementById("signal_status_" + (i + 1)).innerText = percent + "%";
+                          if (percent < 50) {
+                            signalBar.style.backgroundColor = "red";
+                          } else {
+                            signalBar.style.backgroundColor = "green";
+                          }
+                        }else{
+		                      document.getElementById("signal_status_" + (i + 1)).innerText = "not known or not detectable"; 
+		                    }
+                        break;
+                    case 1:
+                        percent = ((value + 1) / 8) * 100;
+                        percent = Math.round(Math.max(0, Math.min(100, percent)));
+                        if (value !== 99 && value !== 255) {
+                          signalBar.style.width = percent + "%";
+                          document.getElementById("signal_status_" + (i + 1)).innerText = percent + "%";
+                          if (percent < 50) {
+                            signalBar.style.backgroundColor = "red";
+                          } else {
+                            signalBar.style.backgroundColor = "green";
+                          }
+                        }else{
+		                      document.getElementById("signal_status_" + (i + 1)).innerText = "not known or not detectable"; 
+		                    }
+                        break;
+                    case 2:
+                        percent = ((value + 1) / 97) * 100;
+                        percent = Math.round(Math.max(0, Math.min(100, percent)));
+                        if (value !== 99 && value !== 255) {
+                          signalBar.style.width = percent + "%";
+                          document.getElementById("signal_status_" + (i + 1)).innerText = percent + "%";
+                          if (percent < 50) {
+                            signalBar.style.backgroundColor = "red";
+                          } else {
+                            signalBar.style.backgroundColor = "green";
+                          }
+                        }else{
+		                      document.getElementById("signal_status_" + (i + 1)).innerText = "not known or not detectable"; 
+		                    }
+                        break;
+                    case 3:
+                        percent = ((value + 1) / 50) * 100;
+                        percent = Math.round(Math.max(0, Math.min(100, percent)));
+                        if (value !== 99 && value !== 255) {
+                          signalBar.style.width = percent + "%";
+                          document.getElementById("signal_status_" + (i + 1)).innerText = percent + "%";
+                          if (percent < 50) {
+                            signalBar.style.backgroundColor = "red";
+                          } else {
+                            signalBar.style.backgroundColor = "green";
+                          }
+                        }else{
+		                      document.getElementById("signal_status_" + (i + 1)).innerText = "not known or not detectable"; 
+		                    }
+                        break;
+                    case 4:
+                        percent = ((value + 1) / 35) * 100;
+                        percent = Math.round(Math.max(0, Math.min(100, percent)));
+                        if (value !== 99 && value !== 255) {
+                    	    var signalBar = document.getElementById("signal_bar_" + (i + 1));
+                    	    signalBar.style.width = percent + "%";
+                          document.getElementById("signal_status_" + (i + 1)).innerText = "RSRQ: " + percent + "%";
+                          if (percent >= 57) {
+                            signalBar.style.backgroundColor = "green";
+                          } else if (percent < 57 && percent > 35){
+                            signalBar.style.backgroundColor = "orange";
+                          } else {
+			                      signalBar.style.backgroundColor = "red";
+		                      }
+                        }else{
+		                        document.getElementById("signal_status_" + (i + 1)).innerText = "not known or not detectable"; 
+                        }
+                        break;
+                    case 5:
+                        percent = ((value + 1) / 98) * 100;
+                        percent = Math.round(Math.max(0, Math.min(100, percent)));
+                        if (value !== 99 && value !== 255) {
+                          var signalBar = document.getElementById("signal_bar_" + (i + 1));
+                          signalBar.style.width = percent + "%";
+                          document.getElementById("signal_status_" + (i + 1)).innerText = "RSRP: " + percent + "%";
+                          if (percent >= 57) {
+                            signalBar.style.backgroundColor = "green";
+                          } else if (percent < 57 && percent > 21) {
+                            signalBar.style.backgroundColor = "orange";
+                          }else {
+			                      signalBar.style.backgroundColor = "red";
+		                      }
+                        }else{
+		                      document.getElementById("signal_status_" + (i + 1)).innerText = "not known or not detectable"; 
+		                    }
+                        break;
+                    case 6:
+                        percent = ((value + 1) / 127) * 100;
+                        percent = Math.round(Math.max(0, Math.min(100, percent)));
+                        if (value !== 99 && value !== 255) {
+                          var signalBar = document.getElementById("signal_bar_" + (i + 1));
+                          signalBar.style.width = percent + "%";
+                          document.getElementById("signal_status_" + (i + 1)).innerText = "SS RSRQ :" + percent + "%";
+                          if (percent >= 52) {
+                            signalBar.style.backgroundColor = "green";
+                          } else if (percent < 52 && percent > 36) {
+                            signalBar.style.backgroundColor = "orange";
+                          } else {
+			                      signalBar.style.backgroundColor = "red";
+		                      }
+                        }else{
+		                      document.getElementById("signal_status_" + (i + 1)).innerText = "not known or not detectable"; 
+		                    }
+                        break;
+                    case 7:
+                        percent = ((value + 1) / 127) * 100;
+                        percent = Math.round(Math.max(0, Math.min(100, percent)));
+                        if (value !== 99 && value !== 255) {
+                          var signalBar = document.getElementById("signal_bar_" + (i + 1));
+                          signalBar.style.width = percent + "%";
+                          document.getElementById("signal_status_" + (i + 1)).innerText = "SS RSRQ: " + percent + "%";
+                          if (percent >= 57) {
+                            signalBar.style.backgroundColor = "green";
+                          } else if (percent < 57 && percent > 21) {
+                            signalBar.style.backgroundColor = "orange";
+                          } else {
+			                      signalBar.style.backgroundColor = "red";
+		                      }
+                        }else{
+		                      document.getElementById("signal_status_" + (i + 1)).innerText = "not known or not detectable"; 
+                        }
+                        break;
+                    case 8:
+                        percent = ((value + 1) / 128) * 100;
+                        percent = Math.round(Math.max(0, Math.min(100, percent)));
+                        if (value !== 255) {
+                          var signalBar = document.getElementById("signal_bar_" + (i + 1));
+                          signalBar.style.width = percent + "%";
+                          document.getElementById("signal_status_" + (i + 1)).innerText = "SS SINR: " + percent + "%";
+                          if (percent >=  68) {
+                            signalBar.style.backgroundColor = "green";
+                          } else if (percent < 68 && percent > 52) {
+                            signalBar.style.backgroundColor = "orange";
+                          } else {
+			                      signalBar.style.backgroundColor = "red";
+		                      }
+                        }else{
+		                      document.getElementById("signal_status_" + (i + 1)).innerText = "not known or not detectable"; 
+		                    }
+                        break;
+                    default:
+                        percent = 0; // Standardwert, falls i nicht erkannt wird
+                        break;
+                }
+            }
+        } else {
+            for (var i = 0; i < 9; i++) {
+                document.getElementById("signal_status_" + (i + 1)).innerText = 'Fehler beim Laden des Signals';
+            }
+        }
+    };
+
+    xhr.send();
+}
+
+window.onload = loadSignalStatus;
+
+</script>
+<%+footer%>
