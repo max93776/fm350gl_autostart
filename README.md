@@ -112,6 +112,14 @@ usb-mode-custom.json:
 ```
 git clone https://github.com/max93776/fm350gl_autostart.git
 ```
+* you need structure as followed:
+```
+/root/Makefile
+/root/autostart/at_commander.c
+/root/autostart/at_commander_log.log
+/root/autostart/fm350gl.sh
+/root/autostart/fm350gl_sh.log
+```
 * change rules
 ```
 chmod +x <file>
@@ -152,10 +160,11 @@ logread
 Oct  9 13:12:57 OpenMPTCProuter user.notice root: Script fm350gl.sh stared
 Oct  9 13:13:19 OpenMPTCProuter user.notice root: Script fm350gl.sh ended
 ```
-
+* feel free to ask
 ## Authors
 
-Contributors names and contact info
+Maximilian Melzer: 
+m.melzer@cbxnet.de
 
 ## Version History
 
@@ -170,3 +179,4 @@ Contributors names and contact info
 Inspiration, code snippets, etc.
 * [Main inspiration github](https://github.com/drozdi70/bananapi_bpir4/blob/main/openwrt_fibocom.txt)
 * [OpenWRT forum for FM350GL](https://forum.openwrt.org/t/fibocom-fm350-gl-support/142682/289)
+* [Russian(?) forum for FM350GL (good content)](https://4pda.to/forum/index.php?showtopic=1057776)
