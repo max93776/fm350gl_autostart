@@ -19,7 +19,7 @@ The project also includes a small luci interface to check signal quality.
 ```
 opkg update
 opkg install kmod-usb-serial kmod-usb-serial-option kmod-usb-serial-qualcomm picocom kmod-usb-net-rndis usb-modeswitch
-oppkg install minicom soscat luci-app-sms-tool gcom sms_tool pcitools usbtools
+opkg install minicom socat luci-app-sms-tool sms-tool pciutils usbutils
 ```
 * maybe you need to execute mode switch with:
 ```
